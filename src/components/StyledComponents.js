@@ -126,11 +126,13 @@ export const ReviewsHeaderContainer = styled.div`
 export const ReviewsTitle = styled.h2`
   font-size: 32px;
   font-weight: bold;
+  max-width: 80%;
 `;
 
-export const ReviewsSubTitle = styled.div`
+export const ReviewsSubTitle = styled.p`
   font-size: 16px;
   color: gray;
+  max-width: 80%;
 `;
 
 export const ReviewsContainer = styled.div`
@@ -146,7 +148,6 @@ export const ReviewsContainer = styled.div`
 export const User = styled.div`
   background-size: cover;
   background-position: 50% 50%;
-  background-image: url(${(props) => props.image});
   color: white;
   height: 500px;
   width: 33%;
@@ -163,11 +164,11 @@ export const User = styled.div`
 
 export const UserReview = styled.div`
   width: 80%;
-  -webkit-backdrop-filter: blur(20px);
-  backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 16px;
   margin-bottom: 16px;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
 `;
 
 export const UserReviewName = styled.p`
@@ -207,6 +208,7 @@ export const ContactSubTitle = styled.p`
   font-size: 16px;
   text-align: center;
   margin: 0;
+  max-width: 80%;
 `;
 
 // Email Contact Form

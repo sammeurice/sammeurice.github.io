@@ -1,5 +1,5 @@
 import React from "react";
-import RankdLogo from "../assets/RankdLogo.png";
+import RankdLogo from "../assets/rankdLogo.webp";
 import { StoreButtons } from "./StoreButtons";
 import * as s from "./StyledComponents";
 

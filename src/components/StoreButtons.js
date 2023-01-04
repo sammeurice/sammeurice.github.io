@@ -1,6 +1,6 @@
 import React from "react";
-import iphoneLogo from "../assets/appstore.png";
-import androidLogo from "../assets/googstore.png";
+import iphoneLogo from "../assets/appstore.webp";
+import androidLogo from "../assets/googstore.webp";
 import * as s from "./StyledComponents";
 import styled from "styled-components";
 
