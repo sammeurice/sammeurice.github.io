@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/sammeurice.github.io/static/css/main.110678bf.css",
-    "main.js": "/sammeurice.github.io/static/js/main.9b477d7f.js",
-    "static/js/787.023dbdf4.chunk.js": "/sammeurice.github.io/static/js/787.023dbdf4.chunk.js",
-    "static/media/review1.jpg": "/sammeurice.github.io/static/media/review1.9cbb843bbe91ceb05c81.jpg",
-    "static/media/splash2.jpg": "/sammeurice.github.io/static/media/splash2.a89283baf94061403286.jpg",
-    "static/media/rankdScreenshot.webp": "/sammeurice.github.io/static/media/rankdScreenshot.331e335fab0e448394a0.webp",
-    "static/media/googstore.webp": "/sammeurice.github.io/static/media/googstore.7deaab2d09d527fc7821.webp",
-    "static/media/appstore.webp": "/sammeurice.github.io/static/media/appstore.b7233074e0b600f37eb6.webp",
-    "static/media/rankdLogo.webp": "/sammeurice.github.io/static/media/rankdLogo.26eff0c574eda57fb09c.webp",
-    "index.html": "/sammeurice.github.io/index.html",
-    "main.110678bf.css.map": "/sammeurice.github.io/static/css/main.110678bf.css.map",
-    "main.9b477d7f.js.map": "/sammeurice.github.io/static/js/main.9b477d7f.js.map",
-    "787.023dbdf4.chunk.js.map": "/sammeurice.github.io/static/js/787.023dbdf4.chunk.js.map"
+    "main.css": "/static/css/main.110678bf.css",
+    "main.js": "/static/js/main.915c4a71.js",
+    "static/js/787.023dbdf4.chunk.js": "/static/js/787.023dbdf4.chunk.js",
+    "static/media/review1.jpg": "/static/media/review1.9cbb843bbe91ceb05c81.jpg",
+    "static/media/splash2.jpg": "/static/media/splash2.a89283baf94061403286.jpg",
+    "static/media/rankdScreenshot.webp": "/static/media/rankdScreenshot.331e335fab0e448394a0.webp",
+    "static/media/googstore.webp": "/static/media/googstore.7deaab2d09d527fc7821.webp",
+    "static/media/appstore.webp": "/static/media/appstore.b7233074e0b600f37eb6.webp",
+    "static/media/rankdLogo.webp": "/static/media/rankdLogo.26eff0c574eda57fb09c.webp",
+    "index.html": "/index.html",
+    "main.110678bf.css.map": "/static/css/main.110678bf.css.map",
+    "main.915c4a71.js.map": "/static/js/main.915c4a71.js.map",
+    "787.023dbdf4.chunk.js.map": "/static/js/787.023dbdf4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.110678bf.css",
-    "static/js/main.9b477d7f.js"
+    "static/js/main.915c4a71.js"
   ]
 }
