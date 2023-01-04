@@ -1,7 +1,7 @@
 {
   "name": "rankd-website",
   "version": "0.1.0",
-  "homepage": "https://sammeurice.github.io/sammeurice.github.io",
+  "homepage": "https://sammeurice.github.io",
   "private": false,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
