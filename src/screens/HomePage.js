@@ -3,13 +3,18 @@ import { NavBar } from "../components/NavBar";
 import * as s from "../components/StyledComponents";
 import background from "../assets/splash2.jpg";
 import screenshot from "../assets/rankdScreenshot.webp";
-import { FiUsers, FiUserCheck, FiCalendar, FiSliders } from "react-icons/fi";
+import { FiUsers, FiCalendar, FiSliders } from "react-icons/fi";
 import { MdOutlineVerifiedUser } from "react-icons/md";
 import { StoreButtons, ReviewsStoreButtons } from "../components/StoreButtons";
 import { UserWholeReview } from "../components/Review";
 import EmailContactForm from "../components/EmailContactForm";
 import RankdLogo from "../assets/rankdLogo.webp";
-import ContactImg from "../assets/review1.jpg";
+import ContactImg from "../assets/contact.jpg";
+import BgImage1 from "../assets/review1.jpg";
+import BgImage2 from "../assets/review2.jpg";
+import BgImage3 from "../assets/review3.jpg";
+import Wreath from "../assets/wreath.svg";
+import RacquetGuys from "../assets/racketguys.png";
 
 function HomePage() {
   return (
@@ -25,40 +30,12 @@ function HomePage() {
       >
         <s.StyledRow className="splash__row">
           <NavBar />
-          <div
-            className="header__container"
-            style={{
-              display: "flex",
-              alignItems: "center",
-              flexDirection: "column",
-              maxWidth: "100%",
-              marginTop: "30vh",
-            }}
-          >
-            <p
-              className="header__subtitle"
-              style={{
-                color: "powderblue",
-                textAlign: "center",
-                maxWidth: "80%",
-                fontSize: "16px",
-                fontWeight: 400,
-              }}
-            >
+          <s.SplashHeaderContainer>
+            <s.SplashSubTitle>
               Conveniently play matches at a Tennis Court near you!
-            </p>
-            <h1
-              className="header__title"
-              style={{
-                color: "white",
-                textAlign: "center",
-                maxWidth: "80%",
-                fontSize: "48px",
-              }}
-            >
-              The fastest way to play tennis
-            </h1>
-          </div>
+            </s.SplashSubTitle>
+            <s.SplashTitle>The fastest way to play tennis</s.SplashTitle>
+          </s.SplashHeaderContainer>
         </s.StyledRow>
       </s.SectionContainer>
       <s.SectionContainer className="memberships__container">
@@ -68,7 +45,7 @@ function HomePage() {
         >
           <div className="memberships__info--container">
             <s.ReviewsTitle>Free Memberships</s.ReviewsTitle>
-            <p>
+            <p style={{ color: "gray" }}>
               No admission or membership fees. Our goal is to become the most
               accessible tennis league.
             </p>
@@ -92,18 +69,6 @@ function HomePage() {
                   <p className="info--block__para">
                     Opponents are verified through Amazon & Google face
                     detection.
-                  </p>
-                </s.MembershipsInfoBlock>
-              </s.MembershipsInfoColumn>
-              <s.MembershipsInfoColumn>
-                <s.MembershipsInfoBlock>
-                  <FiUserCheck size={80} />
-                  <s.MembershipsInfoBlockTitle className="info--block__title">
-                    1000+ MATCHES PLAYED
-                  </s.MembershipsInfoBlockTitle>
-                  <p className="info--block__para">
-                    Over a thousand matches played using the app at ideal tennis
-                    courts near both players.
                   </p>
                 </s.MembershipsInfoBlock>
               </s.MembershipsInfoColumn>
@@ -147,23 +112,48 @@ function HomePage() {
           <s.ReviewsSubTitle>Hear from some of our users.</s.ReviewsSubTitle>
           <s.ReviewsContainer>
             <UserWholeReview
-              image={"../assets/review1.webp"}
+              image={BgImage1}
               review={
-                "Fun app! Was a good way to meet a new player around my skill level. A bit intimidating at first but I'm glad I went through"
+                "Very easy and reliable system to find tennis players around Toronto and the GTA"
               }
-              name={"Alisa Hester"}
+              name={"Pegasogmail"}
             />
             <UserWholeReview
-              image={"../assets/review1.webp"}
+              image={BgImage2}
               review={"Game changer. Found a partner in 5 minutes, amazing!"}
-              name={"Rich Wilson"}
+              name={"sam2000appstore"}
             />
             <UserWholeReview
-              image={"../assets/review1.webp"}
-              review={"By far the best way to find a tennis court near me!"}
-              name={"Annie Stanley"}
+              image={BgImage3}
+              review={
+                "Fun app. Was a good way to meet a new player around my skill level."
+              }
+              name={"mamastty"}
             />
           </s.ReviewsContainer>
+        </s.StyledRow>
+      </s.SectionContainer>
+      <s.SectionContainer>
+        <s.StyledRow>
+          <s.ReviewsTitle>How We Rankd</s.ReviewsTitle>
+          <s.ReviewsSubTitle>Milestones in 2022</s.ReviewsSubTitle>
+          <s.MilestonesContentContainer>
+            <s.Milestone>
+              <s.MilestoneHeader>1000+</s.MilestoneHeader>
+              <s.MilestonePara>Matches made per season</s.MilestonePara>
+              <s.Wreath1 src={Wreath} />
+            </s.Milestone>
+            <s.Milestone>
+              <s.MilestoneHeader>30+</s.MilestoneHeader>
+              <s.MilestonePara>Cities across USA & Canada</s.MilestonePara>
+              <s.Wreath2 src={Wreath} />
+            </s.Milestone>
+            <s.Milestone>
+              <s.MilestoneHeader>Top 50</s.MilestoneHeader>
+              <s.MilestonePara>Ranking in Apple App Store</s.MilestonePara>
+              <s.Wreath3 src={Wreath} />
+            </s.Milestone>
+          </s.MilestonesContentContainer>
         </s.StyledRow>
       </s.SectionContainer>
       <s.SectionContainer>
@@ -181,7 +171,7 @@ function HomePage() {
             />
             <s.ContactTitle>Still have questions?</s.ContactTitle>
             <s.ContactSubTitle>
-              Can't find the answer you're looking for? Please chat to our
+              Can't find the answer you're looking for? Please chat with our
               friendly team.
             </s.ContactSubTitle>
             <EmailContactForm />
@@ -189,7 +179,7 @@ function HomePage() {
         </s.StyledRow>
       </s.SectionContainer>
       <s.FooterContainer>
-        <s.StyledRow>
+        <s.FooterRow>
           <s.FooterContent>
             <div className="rankdLogoContainer" style={{ width: 200 }}>
               <img
@@ -202,7 +192,11 @@ function HomePage() {
             <StoreButtons />
             <s.FooterTagline>Copyright © Rankd 2022</s.FooterTagline>
           </s.FooterContent>
-        </s.StyledRow>
+          <s.FooterSponsorsContainer>
+            <s.SponsorsTitle>Proud Partners of:</s.SponsorsTitle>
+            <s.RacquetGuysLogo src={RacquetGuys} />
+          </s.FooterSponsorsContainer>
+        </s.FooterRow>
       </s.FooterContainer>
     </div>
   );

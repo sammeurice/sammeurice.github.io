@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Creator: CorelDRAW X5 -->
 <svg
-    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlnsInkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlnsRdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns="http://www.w3.org/2000/svg"
-    xmlns:dc="http://purl.org/dc/elements/1.1/"
-    xmlns:ns1="http://sozi.baierouge.fr"
-    xmlns:cc="http://web.resource.org/cc/"
-    xmlns:xlink="http://www.w3.org/1999/xlink"
-    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlnsDc="http://purl.org/dc/elements/1.1/"
+    xmlnsNs1="http://sozi.baierouge.fr"
+    xmlnsCc="http://web.resource.org/cc/"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+    xmlnsSodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
     style="fill-rule:evenodd;text-rendering:geometricPrecision;image-rendering:optimizeQuality;clip-rule:evenodd;shape-rendering:geometricPrecision"
-    xml:space="preserve"
+    xmlSpace="preserve"
     viewBox="0 0 9687 15065"
   >
  <defs
@@ -34,32 +34,32 @@
  </g
   >
 <metadata
-    ><rdf:RDF
-      ><cc:Work
-        ><dc:format
-          >image/svg+xml</dc:format
-        ><dc:type
-            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
-        /><cc:license
-            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
-        /><dc:publisher
-          ><cc:Agent
-              rdf:about="http://openclipart.org/"
-            ><dc:title
-              >Openclipart</dc:title
-            ></cc:Agent
-          ></dc:publisher
-        ></cc:Work
-      ><cc:License
-          rdf:about="http://creativecommons.org/licenses/publicdomain/"
-        ><cc:permits
-            rdf:resource="http://creativecommons.org/ns#Reproduction"
-        /><cc:permits
-            rdf:resource="http://creativecommons.org/ns#Distribution"
-        /><cc:permits
-            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
-        /></cc:License
-      ></rdf:RDF
+    ><rdfRDF
+      ><ccWork
+        ><dcFormat
+          >image/svg+xml</dcFormat
+        ><dcType
+            rdfResource="http://purl.org/dc/dcmitype/StillImage"
+        /><ccLicense
+            rdfResource="http://creativecommons.org/licenses/publicdomain/"
+        /><dcPublisher
+          ><ccAgent
+              rdfAbout="http://openclipart.org/"
+            ><dcTitle
+              >Openclipart</dcTitle
+            ></ccAgent
+          ></dcPublisher
+        ></ccWork
+      ><ccLicense
+          rdfAbout="http://creativecommons.org/licenses/publicdomain/"
+        ><ccPermits
+            rdfResource="http://creativecommons.org/ns#Reproduction"
+        /><ccPermits
+            rdfResource="http://creativecommons.org/ns#Distribution"
+        /><ccPermits
+            rdfResource="http://creativecommons.org/ns#DerivativeWorks"
+        /></ccLicense
+      ></rdfRDF
     ></metadata
   ></svg
 >

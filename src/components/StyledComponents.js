@@ -58,6 +58,35 @@ export const StyledRow = styled.div`
   padding: 0 32px;
   @media (max-width: 700px) {
     padding: 0 16px;
+  }
+`;
+
+export const SplashHeaderContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30vh;
+`;
+
+export const SplashTitle = styled.h1`
+  width: 100%;
+  margin-top: 16px;
+  font-size: 48px;
+  line-height: 1.5em;
+  color: #faf9f6;
+  text-align: center;
+  @media (max-width: 500px) {
+    font-size: 32px;
+  }
+`;
+
+export const SplashSubTitle = styled.p`
+  font-size: 20px;
+  font-weight: 400;
+  color: powderblue;
+  text-align: center;
+  margin: 0;
 `;
 
 export const MembershipsInfoColumn = styled.div`
@@ -66,12 +95,9 @@ export const MembershipsInfoColumn = styled.div`
   align-items: center;
   align-self: center;
   justify-content: space-between;
-  width: 25%;
-  & > *:only-child {
-    margin: auto;
-  }
-  @media (max-width: 1100px) {
-    width: calc(100% / 3);
+  width: calc(100% / 3);
+  @media (max-width: 800px) {
+    width: 50%;
   }
   @media (max-width: 600px) {
     width: 100%;
@@ -107,11 +133,11 @@ export const MembershipsInfoBlockPara = styled.p`
 `;
 
 export const MembershipsScreenshotContainer = styled.div`
-  width: 25%;
+  width: 33%;
   align-self: center;
   display: flex;
   justify-content: flex-end;
-  @media (max-width: 1100px) {
+  @media (max-width: 800px) {
     display: none;
   }
 `;
@@ -127,6 +153,9 @@ export const ReviewsTitle = styled.h2`
   font-size: 32px;
   font-weight: bold;
   max-width: 80%;
+  @media (max-width: 400px) {
+    font-size: 24px;
+  }
 `;
 
 export const ReviewsSubTitle = styled.p`
@@ -184,6 +213,77 @@ export const UserReviewText = styled.p`
   margin: 0;
 `;
 
+export const MilestonesContentContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  margin-top: 48px;
+  padding-bottom: 48px;
+  justify-content: space-around;
+  align-items: center;
+  @media (max-width: 900px) {
+    flex-direction: column;
+  }
+`;
+
+export const Milestone = styled.div`
+  margin: 0 16px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  @media (max-width: 900px) {
+    margin-top: 56px;
+  }
+`;
+
+export const MilestoneHeader = styled.p`
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+`;
+
+export const MilestonePara = styled.p`
+  font-size: 24px;
+  margin-top: 24px;
+  margin-bottom: 0;
+  text-align: center;
+`;
+
+export const Wreath1 = styled.img`
+  height: 150px;
+  position: absolute;
+  opacity: 0.5;
+  left: -56px;
+`;
+
+export const Wreath2 = styled.img`
+  height: 150px;
+  position: absolute;
+  opacity: 0.5;
+  rotate: 285deg;
+  bottom: -100px;
+  @media (max-width: 900px) {
+    transform: scaleX(-1);
+    right: -48px;
+    rotate: 0deg;
+    bottom: -24px;
+  }
+`;
+
+export const Wreath3 = styled.img`
+  height: 150px;
+  position: absolute;
+  opacity: 0.5;
+  transform: scaleX(-1);
+  right: -48px;
+  @media (max-width: 900px) {
+    left: -48px;
+    transform: scaleX(1);
+  }
+`;
+
 export const ContactContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -223,10 +323,26 @@ export const ContactFormLabel = styled.label`
 export const FooterContainer = styled.footer`
   padding: 32px 0;
   display: flex;
-  flexdirection: "column";
-  alignitems: "center";
-  justifycontent: "flex-start";
+  flexdirection: row;
+  alignitems: center;
   background-color: #242424;
+`;
+
+export const FooterRow = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+  @media (max-width: 900px) {
+    flex-direction: column;
+  }
+  @media (max-width: 700px) {
+    padding: 0 16px;
+  }
 `;
 
 export const FooterContent = styled.div`
@@ -239,4 +355,21 @@ export const FooterContent = styled.div`
 export const FooterTagline = styled.p`
   text-align: center;
   color: gray;
+`;
+
+export const FooterSponsorsContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
+export const SponsorsTitle = styled.p`
+  color: gray;
+  margin: 0;
+`;
+
+export const RacquetGuysLogo = styled.img`
+  width: 400px;
+  @media (max-width: 500px) {
+    width: 250px;
+  }
 `;
