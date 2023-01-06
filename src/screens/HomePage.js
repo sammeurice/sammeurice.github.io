@@ -15,7 +15,6 @@ import BgImage2 from "../assets/review2.jpg";
 import BgImage3 from "../assets/review3.jpg";
 import Wreath from "../assets/wreath.svg";
 import RacquetGuys from "../assets/racketguys.png";
-import ContactImg from "../assets/review1.jpg";
 
 function HomePage() {
   return (
