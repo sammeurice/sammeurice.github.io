@@ -1,21 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.110678bf.css",
-    "main.js": "/static/js/main.915c4a71.js",
+    "main.js": "/static/js/main.bc246356.js",
     "static/js/787.023dbdf4.chunk.js": "/static/js/787.023dbdf4.chunk.js",
+    "static/media/review2.jpg": "/static/media/review2.cd9a3a492060ce8a3cf5.jpg",
+    "static/media/review3.jpg": "/static/media/review3.32fcd56844aeaa7b9d44.jpg",
     "static/media/review1.jpg": "/static/media/review1.9cbb843bbe91ceb05c81.jpg",
     "static/media/splash2.jpg": "/static/media/splash2.a89283baf94061403286.jpg",
+    "static/media/contact.jpg": "/static/media/contact.e95eeae6ee0c05b37231.jpg",
     "static/media/rankdScreenshot.webp": "/static/media/rankdScreenshot.331e335fab0e448394a0.webp",
     "static/media/googstore.webp": "/static/media/googstore.7deaab2d09d527fc7821.webp",
     "static/media/appstore.webp": "/static/media/appstore.b7233074e0b600f37eb6.webp",
+    "static/media/racketguys.png": "/static/media/racketguys.ab87848e6617d18fd600.png",
     "static/media/rankdLogo.webp": "/static/media/rankdLogo.26eff0c574eda57fb09c.webp",
+    "static/media/wreath.svg": "/static/media/wreath.5434a17dd5d0ee0420be3959638deee8.svg",
     "index.html": "/index.html",
     "main.110678bf.css.map": "/static/css/main.110678bf.css.map",
-    "main.915c4a71.js.map": "/static/js/main.915c4a71.js.map",
+    "main.bc246356.js.map": "/static/js/main.bc246356.js.map",
     "787.023dbdf4.chunk.js.map": "/static/js/787.023dbdf4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.110678bf.css",
-    "static/js/main.915c4a71.js"
+    "static/js/main.bc246356.js"
   ]
 }
