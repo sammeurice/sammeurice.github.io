@@ -1,10 +1,13 @@
-import HomePage from "./screens/HomePage";
+import { Routes, Route } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import ForgotPassword from "./pages/ForgotPassword";
 
 function App() {
   return (
-    <div className="App">
-      <HomePage />
-    </div>
+    <Routes>
+      <Route exact path="/" element={<HomePage />} />
+      <Route path="/forgotpassword/*" element={<ForgotPassword />} />
+    </Routes>
   );
 }
 
