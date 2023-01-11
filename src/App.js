@@ -4,13 +4,12 @@ import ForgotPassword from "./pages/ForgotPassword";
 
 function App() {
   return (
-    <Routes>
-      <Route exact path="/sammeurice.github.io" element={<HomePage />} />
-      <Route
-        path="/sammeurice.github.io/forgotpassword/*"
-        element={<ForgotPassword />}
-      />
-    </Routes>
+    <div>
+      <Routes>
+        <Route exact path="/" element={<HomePage />} />
+        <Route path="/forgotpassword" element={<ForgotPassword />} />
+      </Routes>
+    </div>
   );
 }
 
