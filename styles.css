@@ -617,71 +617,6 @@ footer {
   color: white;
 }
 
-/*
-
-SHAPES
-
-shapes on first row
-height= 35vh
-Shapes on second row
-height= 70vh
-Shapes on third row
-height= 95vh
-
-First column
-W = 5vw
-
-Second column
-w = 50vw
-
-Third Column
-w = 80vw
-*/
-.shape {
-  position: fixed;
-  z-index: 0;
-  display: none;
-}
-
-.shape--0 {
-  top: 15vh;
-  left: 5vw;
-}
-
-.shape--1 {
-  top: 15vh;
-  left: 50vw;
-}
-.shape--2 {
-  top: 15vh;
-  left: 80vw;
-}
-.shape--3 {
-  top: 50vh;
-  left: 5vw;
-  display: none;
-}
-.shape--4 {
-  top: 50vh;
-  left: 50vw;
-}
-.shape--5 {
-  top: 50vh;
-  left: 80vw;
-}
-.shape--6 {
-  top: 80vh;
-  left: 5vw;
-}
-.shape--7 {
-  top: 80vh;
-  left: 50vw;
-}
-.shape--8 {
-  top: 80vh;
-  left: 80vw;
-}
-
 /* ANIMALS */
 
 .animal {
@@ -742,6 +677,9 @@ w = 80vw
   }
   .modal__half {
     width: 100%;
+  }
+  .animal--1 {
+    display: none;
   }
 }
 
